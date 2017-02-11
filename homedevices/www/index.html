@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>My App</title>
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="css/framework7.material.min.css">
+    <link rel="stylesheet" href="css/framework7.material.rtl.min.css">
+    
+    <link rel="stylesheet" href="css/framework7.material.colors.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+    
+  </head>
+  
+  <body >
+    <!-- Status bar overlay for fullscreen mode-->
+    <div class="statusbar-overlay"></div>
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+    <!-- Left panel with reveal effect-->
+    <div class="panel panel-left panel-reveal  " >
+      <div class="content-block">
+    <div class="list-block">
+      <ul>
+  
+    
+     <li class="item-content ">
+          <div class="item-media"><img src="img/monitor.png"></div>
+          <div class="item-inner">
+       <a href="about.html"  >
+            <div class="item-title panel-close">شاشات تليفزيون   </div>
+       </a>
+          </div>
+
+        </li>    
+         <li class="item-content panel-close">
+          <div class="item-media"><img src="img/game-console.png"></div>
+          <div class="item-inner">
+<a href="dev.html">
+            <div class="item-title">  الأجهزة المنزليه </div>
+</a>
+          </div>
+        </li>  
+       
+           <li class="item-content panel-close">
+          <div class="item-media"><img src="img/fridge.png"></div>
+          <div class="item-inner">
+            <a href="smalldev.html">
+            <div class="item-title"> الأجهزه المنزليه الصغيره</div>
+            </a>
+       </div>
+        </li>
+
+ 
+
+                    <li class="item-content panel-close">
+          <div class="item-media"><img src="img/adaptation.png"></div>
+          <div class="item-inner">
+<a href="air.html">
+            
+            <div class="item-title ">    تكييفات </div>
+</a>
+       </div>
+        </li>
+      </ul>
+    </div>
+
+      </div>
+    </div>
+    <!-- Right panel with cover effect-->
+    <div class="panel panel-right panel-cover">
+      <div class="content-block">
+        <p>Right panel content goes here</p>
+      </div>
+    </div>
+    <!-- Views-->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class-->
+      <div class="view view-main">
+        <!-- Top Navbar-->
+
+        <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through toolbar-through">
+          <!-- Page, data-page contains page name-->
+          <div data-page="index" class="page">
+            <!-- Scrollable page content-->
+            <div class="page-content">
+                      <div class="navbar">
+          <div class="navbar-inner">
+            <!-- We have home navbar without left link-->
+            <div class="center sliding">Devices</div>
+            <div class="right">
+              <!-- Right link contains only icon - additional "icon-only" class--><a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
+            </div>
+          </div>
+        </div>
+              <div class="content-block-title">
+    <div class="col-100">
+  <div class="swiper-custom">
+    <div class="swiper-container">
+      <div class="swiper-pagination"></div>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><span><img src="img/wallpaper.jpg"/></span></div>
+        <div class="swiper-slide"><span><img src="img/tv11.jpg"/></span></div>
+        <div class="swiper-slide"><span><img src="img/tlaga.jpg"/></span></div>
+     
+      </div>
+    </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+    </div>
+
+              </div>
+             
+              <div class="list-block">
+                <ul>
+               
+             
+             
+                </ul>
+              </div>
+              <div class="content-block">
+            <div class="row no-gutter">
+    <!-- Each "cell" has col-[widht in percents] class -->
+    <div class="col-50">
+
+<div class="list-block cards-list">
+  <ul>
+    <li class="card">
+      <div class="card-content">
+        <div class="card-content-inner"><img src="img/fridge.jpg"/></div>
+      </div>
+      <div class="card-footer">ثلاجة شارب 2 باب 585 لتر زجاج أسود ديجيتال ... </div>
+         <h3>27,699.00 ج.م </h3>
+         <h4>تلاجات</h4>
+    </li>
+
+  </ul>
+</div>
+
+<div class="list-block cards-list">
+  <ul>
+    <li class="card">
+      <div class="card-content">
+        <div class="card-content-inner"><img src="img/tv2.jpg"/></div>
+      </div>
+      <div class="card-footer">شاشة شارب 32 بوصة بمدخل فلاشة & مدخلين اتش دي ...</div>
+         <h3>3,849.00 ج.م</h3>
+         <h4>شاشات</h4>
+         
+    </li>
+
+  </ul>
+</div>
+
+<div class="list-block cards-list">
+  <ul>
+    <li class="card">
+      <div class="card-content">
+        <div class="card-content-inner"><img src="img/madraab.jpg"/></div>
+      </div>
+      <div class="card-footer">    مضرب يدوى تورنيدو 800 وات مزود بمحضرة طعام ومفرمة ... </div>
+         <h3>1,465.00 ج.م </h3>
+         <h4>الأجهزه المنزليه</h4>
+         
+    </li>
+
+  </ul>
+</div>
+    </div>
+    <div class="col-50">
+
+
+      <div class="list-block cards-list">
+  <ul>
+    <li class="card">
+      <div class="card-content">
+        <div class="card-content-inner"><img src="img/botgaz.jpg"/></div>
+      </div>
+      <div class="card-footer">  بوتاجاز لاجيرمانيا 5 شعلة غاز بريما 90×60 سم مزود ... </div>
+     <h3>17,150.00 ج.م </h3>
+     <h4>بوتجازات</h4>
+    </li>
+
+  </ul>
+</div>
+
+
+<div class="list-block cards-list">
+  <ul>
+    <li class="card">
+      <div class="card-content">
+        <div class="card-content-inner"><img src="img/microwev.jpg"/></div>
+      </div>
+      <div class="card-footer">فرن كهربائى شارب سعة 60 لتر 2000 وات مزود بشواية &... </div>
+         <h3>2,015.00 ج.م </h3>
+         <h4>الأجهزه المنزليه</h4>
+    </li>
+
+  </ul>
+</div>
+
+<div class="list-block cards-list">
+  <ul>
+    <li class="card">
+      <div class="card-content">
+        <div class="card-content-inner"><img src="img/dfaya.jpg"/></div>
+      </div>
+      <div class="card-footer">دفاية زيت تورنيدو 15 ريشة 3000 وات مزودة بثلاث مست...    </div>
+         <h3>1,050.00 ج.م </h3>
+         <h4>الأجهزه المنزليه</h4>
+         
+    </li>
+
+  </ul>
+</div>
+    </div>
+</div>  
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Bottom Toolbar-->
+        <div class="toolbar">
+        </div>
+      </div>
+    </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+  </body>
+</html>
